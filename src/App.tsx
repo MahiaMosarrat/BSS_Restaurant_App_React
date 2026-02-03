@@ -14,7 +14,7 @@ import Dashboard from './Pages/Dashboard';
 function App() {
   return (
     <>
-      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/restaurant_app_bss-v1'}>
+      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/'}>
         <AuthProvider>
 
           <Routes>
